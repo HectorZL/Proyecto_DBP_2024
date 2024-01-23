@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda de Accesorios para Computadoras</title>
+</head>
+<body>
+    
+
+    <main id="main-container">
+        <section id="about-us">
+            <h2>Nuestras Historias</h2>
+...
+
+<form action="#main-container" method="post">
+<fieldset>
+    <legend>Datos personales</legend>
+    <label for="name">Nombre:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="lastName">Apellidos:</label>
+<input type="text" id="lastName" name="lastName" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="message">Asunto:</label>
+<select id="subject" name="subject">
+        <option value="" disabled selected>Elige un tema</option>
+<option value="consulta">Consulta</option>
+<option value="problema">Problema</option>
+<option value="otro">Otro</option>
+</select>
+        
+</fieldset>
+<fieldset>
+    <legend>Detalles del mensaje</legend>
+<label for="message">Mensaje:</label>
+<textarea id="message" name="message" rows="5" placeholder="Escribe aquí..." required>
+</textarea>
+</fieldset>
+
+<input type="submit" value="Enviar">
+</form>
+
+
+
+    <footer>
+        <a href="main.html">Regresar</a>
+    </footer>
+
+
+</body>
+</html>
