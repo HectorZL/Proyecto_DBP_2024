@@ -6,21 +6,7 @@ body {
     box-sizing: border-box;
 }
 
-/* Navegación */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-}
 
-.navbar a {
-    text-decoration: none;
-    color: white;
-    margin: 0 1rem;
-}
 
 /* Cards */
 .cards {
